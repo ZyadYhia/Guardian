@@ -1,0 +1,154 @@
+    /* body {
+    font-family: 'segoe ui light';
+} */
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #fcfdff;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .w-20 {
+        width: 20%;
+    }
+    
+    .w-30 {
+        width: 30%;
+    }
+    
+    .w-40 {
+        width: 40%;
+    }
+    
+    .w-60 {
+        width: 60%;
+    }
+    
+    .w-70 {
+        width: 70%;
+    }
+    
+    .bg-custom {
+        background-color: #e9f4ff;
+    }
+    
+    .color-custom {
+        color: #44a6ff !important;
+    }
+    
+    #insured h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    
+    #protection .icon {
+        width: 5rem;
+        height: 5rem;
+        font-size: 3rem;
+        padding: 10px;
+        border-radius: 50%;
+        ;
+    }
+    
+    #protection .ico1 {
+        color: #ee9f07;
+        background-color: #fdf5e6;
+        border: solid #fdf5e6 2px;
+    }
+    
+    .inner {
+        padding: 0 20 0 20;
+    }
+    
+    @media all and (min-width: 1201px) {
+        .title h2 {
+            font-size: 5rem;
+        }
+        .title h3 {
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media all and (min-width: 993px) and (max-width:1200px) {
+        .title h2 {
+            font-size: 4.5rem;
+        }
+        .title h3 {
+            font-size: 2.25rem;
+        }
+        .insurance-btn {
+            font-size: .75rem;
+            text-align: center;
+            padding: 0;
+        }
+        #insured h1 {
+            font-size: 3rem;
+        }
+        #insured p {
+            font-size: 1.5rem;
+        }
+    }
+    
+    @media all and (min-width: 768px) and (max-width:992px) {
+        .title h2 {
+            font-size: 3.5rem;
+        }
+        .title h3 {
+            font-size: 1.75rem;
+        }
+        .insurance-btn {
+            font-size: .75rem;
+            text-align: center;
+            padding: 0;
+        }
+        #insured h1 {
+            font-size: 2rem;
+        }
+        #insured p {
+            font-size: 1rem;
+        }
+    }
+    
+    @media all and (min-width: 576px) and (max-width:767px) {
+        .title h2 {
+            font-size: 2.5rem;
+        }
+        .title h3 {
+            font-size: 1.25rem;
+        }
+        .insurance-btn {
+            font-size: .75rem;
+            text-align: center;
+            padding: 0;
+        }
+        #insured h1 {
+            font-size: 3rem;
+        }
+        #insured p {
+            font-size: 1.25rem;
+        }
+    }
+    
+    @media all and (max-width:575px) {
+        .title h2 {
+            font-size: 1.5rem;
+        }
+        .title h3 {
+            font-size: 0.75rem;
+        }
+        .insurance-btn {
+            font-size: 0.6rem;
+            text-align: center;
+            padding: 0;
+        }
+        #insured h1 {
+            font-size: 2rem;
+        }
+        #insured p {
+            font-size: 1.1rem;
+        }
+    }
