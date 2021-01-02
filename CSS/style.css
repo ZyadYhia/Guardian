@@ -45,23 +45,31 @@
         font-weight: 700;
     }
     
-    #protection .icon {
-        width: 5rem;
-        height: 5rem;
-        font-size: 3rem;
+    .icoContainer .icon {
+        width: 60px;
+        height: 60px;
+        font-size: 2.5rem;
         padding: 10px;
         border-radius: 50%;
-        ;
     }
     
     #protection .ico1 {
         color: #ee9f07;
         background-color: #fdf5e6;
         border: solid #fdf5e6 2px;
+        margin: 5px;
     }
     
-    .inner {
-        padding: 0 20 0 20;
+    #protection .ico2 {
+        color: #00c395;
+        background-color: #e5f9f4;
+        border: solid #eaf0ff 2px;
+    }
+    
+    #protection .ico3 {
+        color: #336cff;
+        background-color: #eaf0ff;
+        border: solid #eaf0ff 2px;
     }
     
     @media all and (min-width: 1201px) {
