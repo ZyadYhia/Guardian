@@ -48,28 +48,40 @@
     .icoContainer .icon {
         width: 60px;
         height: 60px;
-        font-size: 2.5rem;
+        font-size: 1.75rem;
         padding: 10px;
         border-radius: 50%;
     }
     
-    #protection .ico1 {
+    .ico1 {
         color: #ee9f07;
         background-color: #fdf5e6;
         border: solid #fdf5e6 2px;
         margin: 5px;
     }
     
-    #protection .ico2 {
+    .ico2 {
         color: #00c395;
         background-color: #e5f9f4;
         border: solid #eaf0ff 2px;
     }
     
-    #protection .ico3 {
+    .ico3 {
         color: #336cff;
         background-color: #eaf0ff;
         border: solid #eaf0ff 2px;
+    }
+    
+    .pioneer-item {
+        margin-top: 15px;
+    }
+    
+    .pioneer-item p {
+        font-size: .8rem;
+    }
+    
+    .pioneer-item h4 {
+        font-size: 1.5rem;
     }
     
     @media all and (min-width: 1201px) {
