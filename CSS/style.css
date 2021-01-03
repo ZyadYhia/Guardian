@@ -84,6 +84,28 @@
         font-size: 1.5rem;
     }
     
+    #pioneering-service-2 .customP {
+        line-height: 2rem;
+    }
+    
+    #bg-img {
+        background-image: url(../images/footer.PNG);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        background-size: cover;
+    }
+    
+    .vh-25 {
+        /* height: 60vh!important; */
+        height: 400px!important
+    }
+    
+    .btn-custom {
+        color: #fff;
+        background-color: #1dd8a9;
+        border-color: #1dd8a9
+    }
+    
     @media all and (min-width: 1201px) {
         .title h2 {
             font-size: 5rem;
